@@ -21,6 +21,10 @@
 (defn purchases-html [purchases]
    [:html
     [:body
+     [:head [:title "Purchases"]]
+     [:style "body {background-color: #92B06A}"]
+     [:style "body {color: black}"]
+     [:style "a {color: black}"]
      [:h3 "Please Click On A Category"]
      [:a {:href "/"} "All"] " "
      [:a {:href "/Toiletries"} "Toiletries"] " "
